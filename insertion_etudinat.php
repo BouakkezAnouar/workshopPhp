@@ -19,4 +19,7 @@ if ($conn->query($sql) === TRUE) {
 
 //close connection
 $conn->close();
+
+//redirect to affichage etudiants
+header('Location: affichage_etudiant.php');
 ?>
